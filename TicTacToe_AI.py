@@ -1,8 +1,8 @@
 from math import inf as infinity
 from random import choice
-import platform
-import time
-from os import system
+#import platform
+#import time
+#from os import system
 
 HUMAN = -1
 COMP = +1
@@ -186,7 +186,7 @@ def main():
     #clean()
     h_choice = 'O'  # X or O
     c_choice = 'X'  # X or O
-    first = 'N'  # if human is the first
+    first = 'Y'  # if human is the first
 
     # Main loop of this game
     while len(empty_cells(board)) > 0 and not game_over(board):
