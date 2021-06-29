@@ -31,8 +31,9 @@ transitions = ConditionalProbabilityTable([
 model = MarkovChain([start, transitions])
 
 # Sample 50 states from chain
-print(model.sample(100))
-print(Counter(model.sample(100)))
+a=(model.sample(100))
+print(a)
+print(Counter(a))
 
 # Fun little test
 sCoin = DiscreteDistribution({
