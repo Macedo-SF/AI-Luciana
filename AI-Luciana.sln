@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TicTacToe AI", "TicTacToe AI.pyproj", "{2856C14F-0A39-40B6-8644-63BD0FCB2297}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AI-Luciana", "AI-Luciana.pyproj", "{2856C14F-0A39-40B6-8644-63BD0FCB2297}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
