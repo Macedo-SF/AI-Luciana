@@ -5,7 +5,7 @@
 #O modelo de transição é a distribuição das probabilidades dos eventos de acordo com o evento atual:
 #   X Y (+1)
 # X a b
-# Y c d   //c=1-a, d=1-b
+# Y c d   //c=1-d, a=1-b
 
 #A cadeia de Markov é um número de observações obtido através de um modelo de transição e um estado atual:
 # X -> X -> Y -> X -> X -> X -> Y -> Y
