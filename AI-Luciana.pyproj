@@ -5,7 +5,7 @@
     <ProjectGuid>2856c14f-0a39-40b6-8644-63bd0fcb2297</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Markov.py</StartupFile>
+    <StartupFile>Wine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,24 @@
   <ItemGroup>
     <Compile Include="Markov.py" />
     <Compile Include="TicTacToe.py" />
+    <Compile Include="Wine.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Figures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Figures\heatmap.png" />
+    <Content Include="Figures\KMeans.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_dt.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_kn.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_log.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_mp1.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_mp2.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_nb.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_semSelecao.png" />
+    <Content Include="Figures\Matriz de confusão normalizada_slog.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
